@@ -15,3 +15,4 @@ PyDOE >= 0.3.0
 sobol_seq >=0.1
 emcee>=2.2.1
 gpyopt
+fonttools>=4.43.0 # not directly required, pinned by Snyk to avoid a vulnerability
