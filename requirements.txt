@@ -26,3 +26,4 @@ qulacs < 0.5.0 # default simulator (best integration), remove if the installatio
 #pyzx
 #pyscf # if used also restrict h5py version untill the issue is fixed upstream in pyscf
 #h5py <= 3.1 # version 3.3.0 leads to crashes when pyscf is imported
+pillow>=10.2.0 # not directly required, pinned by Snyk to avoid a vulnerability
